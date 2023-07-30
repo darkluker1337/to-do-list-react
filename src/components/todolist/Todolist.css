@@ -1,0 +1,19 @@
+.Todolist{
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.ButtonsFilter{
+    display: flex;
+    justify-content: center;
+}
+.ButtonFilter{
+    padding:10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: aqua;
+    margin: 0 15px 15px 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.ButtonFilterActive{
+    background-color: yellow;
+}
