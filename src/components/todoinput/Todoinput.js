@@ -8,11 +8,13 @@ export class ToDoInput extends Component {
 
     return (
       <div className='todoinput'>
-        <input className='inputText'
+        <input
+          className='inputText'
           onChange={handleChangeTittle}
           value={tittle}
-          placeholder='tittle'></input>
-        <input className='inputText'
+          placeholder='title'></input>
+        <input
+          className='inputText'
           onChange={handleChange}
           value={item}
           placeholder='todosmth'></input>
