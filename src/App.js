@@ -61,7 +61,6 @@ class App extends Component {
       if (
         event.target.parentElement.parentElement.id == this.state.items[i].id
       ) {
-        console.log(event.target.parentElement.parentElement);
         const newItemsArray = [...this.state.items];
         newItemsArray[i].done = !newItemsArray[i].done;
         this.setState({ items: newItemsArray });
@@ -114,7 +113,7 @@ class App extends Component {
         event.target.parentElement.parentElement.id == this.state.items[i].id
       ) {
         const newItemsArray = [...this.state.items];
-        console.log(newItemsArray[i]);
+
         newItemsArray[i].edit = !newItemsArray[i].edit;
         newItemsArray[i].value =
           event.target.parentElement.parentElement.children[0].children[1].innerText;
