@@ -34,7 +34,7 @@ class App extends Component {
   };
   handleClick = () => {
     if (this.state.tittle == '' || this.state.tittle.length < 3) {
-      alert('write a normal tittle');
+      alert('write a normal title');
     } else {
       const newItem = {
         id: this.state.id,
